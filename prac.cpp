@@ -9,7 +9,7 @@ int FindLocation(int ToFind, vector<int> odds){
     return index;
 }
 
-int Solution(vector<int> odds){
+int Solution(vector<int> myset){
     int answer;
 
    /*
@@ -22,8 +22,6 @@ int Solution(vector<int> odds){
 
     }
     */
-   vector<int> myset;
-   myset = odds;
    int i = 2;
     while(i <= myset.size()){
         int res = count(myset.begin(), myset.end(), myset[0]);
