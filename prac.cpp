@@ -25,7 +25,7 @@ int Solution(vector<int> odds){
     return answer;
 }
 int main(){
-    vector<int> odds = {1, 1, 3, 5, 3, 9, 9, 7 ,5 ,7, 11};
+    vector<int> odds = {1, 1, 3, 5, 3, 9, 9, 7 ,5 ,7, 11, 13, 11};
     cout<<Solution(odds);
 
 }
